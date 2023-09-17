@@ -3,7 +3,7 @@
 
 **Note:** **As the code is specifically tailored for Linux OS, it can be used in only used in the systems running Linux OS and should be run using `ROOT Privileges` only**
 
-**Note:** **Before using the code, run the command: `sudo sysctl -w net.ipv4.ip_forward=1` so that port forwarding is enabled and the poisoned system's requests are routed to the router through your system.**
+**Note:** **Before using the code, run the command: `sudo sysctl -w net.ipv4.ip_forward=1` so that port forwarding is enabled and the poisoned system's(victim system) requests are forwarded to the router through attacker (your) system.**
 
 Introducing the ARP Cache Poisoning Tool, a powerful utility for conducting ARP cache poisoning attacks to intercept network traffic. This tool provides a user-friendly interface and essential features for performing ARP cache poisoning attacks in a controlled environment.
 
@@ -58,4 +58,4 @@ Feel free to explore and contribute to the ARP Cache Poisoning Tool project, and
 
 ---
 
-**Disclaimer:** The ARP Cache Poisoning Tool is intended for educational and ethical use. Respect privacy and adhere to legal regulations when conducting ARP cache poisoning attacks. The creators and contributors of this tool hold no responsibility for any misuse or unauthorized activities.
+**Disclaimer:** ARPAlchemy - ARP Cache Poisoning Tool is intended for educational and ethical use. Respect privacy and adhere to legal regulations when conducting ARP cache poisoning attacks. The creators and contributors of this tool hold no responsibility for any misuse or unauthorized activities.
