@@ -1,3 +1,9 @@
+"""
+Note: As the code is specifically tailored for Linux OS, it can be used in only used in the systems running Linux OS and should be run using ROOT Privileges only 
+"""
+"""
+Note: Before using the code, run the command: `sudo sysctl -w net.ipv4.ip_forward=1` so that port forwarding is enabled and the poisoned system's(victim system) requests are forwarded to the router through attacker (your) system.
+"""
 # Import necessary modules
 import ipaddress  # Import the 'ipaddress' module for IP address validation
 import re  # Import the 're' module for regular expressions
